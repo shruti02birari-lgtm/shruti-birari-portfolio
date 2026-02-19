@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "React.js portfolio web app for a data analyst, featuring a modern dark theme, data-visualization imagery, and sections for hero intro, skills, projects, experience timeline, contact info, and fully responsive design.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Abstract dark data-visualization hero background with subtle charts/grids (hero-dataviz-bg.dim_1920x1080.png)\n- Minimalist data dashboard illustration in dark theme (dashboard-illustration.dim_1200x800.png)\n- Project thumbnail: sales performance chart collage in dark theme (project-sales-thumb.dim_800x600.png)\n- Project thumbnail: churn/cohort analysis visualization in dark theme (project-churn-thumb.dim_800x600.png)\n- Project thumbnail: A/B test results and KPI tiles in dark theme (project-abtest-thumb.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-single-page-portfolio-layout-with-clear-top-navigation-e-g-home-skills-projects-experience-contact-and-smooth-in-page-scrolling-to-each-section",
+      "title": "Create a single-page portfolio layout with clear top navigation (e.g., Home, Skills, Projects, Experience, Contact) and smooth in-page scrolling to each section.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-modern-dark-theme-with-a-cohesive-professional-visual-style-suitable-for-a-data-analyst-portfolio-typography-spacing-and-a-restrained-accent-palette-such-as-charcoal-teal-amber-apply-consistently-across-all-sections",
+      "title": "Implement a modern dark theme with a cohesive, professional visual style suitable for a data analyst portfolio (typography, spacing, and a restrained accent palette such as charcoal + teal + amber). Apply consistently across all sections.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-hero-section-with-a-professional-introduction-that-explicitly-highlights-2-years-of-experience-and-key-tools-skills-r-power-bi-sql-python-data-visualization-statistical-analysis-include-a-clear-call-to-action-to-view-projects-and-contact-details",
+      "title": "Build the Hero section with a professional introduction that explicitly highlights 2+ years of experience and key tools/skills: R, Power BI, SQL, Python, data visualization, statistical analysis. Include a clear call-to-action to view projects and contact details.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-skills-section-that-showcases-core-competencies-and-tools-with-a-clean-scannable-layout-e-g-grouped-chips-cards-for-tools-analysis-methods-visualization-data",
+      "title": "Create a Skills section that showcases core competencies and tools with a clean, scannable layout (e.g., grouped chips/cards for Tools, Analysis Methods, Visualization, Data).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-projects-section-featuring-at-least-3-sample-data-analysis-projects-case-studies-each-project-card-should-include-title-short-problem-statement-approach-tools-used-and-outcomes-insights-using-realistic-placeholder-content",
+      "title": "Create a Projects section featuring at least 3 sample data analysis projects/case studies. Each project card should include: title, short problem statement, approach, tools used, and outcomes/insights (using realistic placeholder content).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-experience-timeline-section-that-communicates-professional-progression-over-2-years-with-roles-periods-and-bullet-point-impact-statements-realistic-placeholder-content",
+      "title": "Implement an Experience timeline section that communicates professional progression over 2+ years, with roles/periods and bullet-point impact statements (realistic placeholder content).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-that-displays-contact-information-email-and-at-least-one-additional-channel-such-as-linkedin-github-portfolio-link-using-safe-placeholders-in-english-and-a-polished-layout",
+      "title": "Create a Contact section that displays contact information (email and at least one additional channel such as LinkedIn/GitHub/portfolio link) using safe placeholders in English and a polished layout.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-incorporate-beautiful-data-visualization-themed-imagery-throughout-the-page-e-g-hero-background-illustration-and-project-thumbnails-using-locally-bundled-static-assets",
+      "title": "Incorporate beautiful data-visualization-themed imagery throughout the page (e.g., hero background/illustration and project thumbnails) using locally bundled static assets.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-and-render-the-generated-images-as-static-files-under-frontend-public-assets-generated-and-reference-them-from-the-ui",
+      "title": "Add and render the generated images as static files under frontend/public/assets/generated and reference them from the UI.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-fully-responsive-design-across-common-breakpoints-mobile-tablet-desktop-with-no-layout-overflow-readable-typography-and-touch-friendly-interactions",
+      "title": "Ensure fully responsive design across common breakpoints (mobile, tablet, desktop) with no layout overflow, readable typography, and touch-friendly interactions.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Build a React.js professional data-analyst portfolio web app with a modern dark theme",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Create a Hero section with a professional introduction highlighting 2+ years experience and tools (R, Power BI, SQL, Python)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement a Skills showcase section for core competencies (data visualization, statistical analysis, etc.)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Implement a Projects section featuring sample data analysis work/case studies",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Implement an Experience timeline section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Implement a Contact information section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Ensure responsive design that looks great on all devices",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Incorporate beautiful data visualization imagery/visual styling to impress potential employers",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Professional dark-theme Data Analyst portfolio (React) with skills, projects, experience, and contact",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
