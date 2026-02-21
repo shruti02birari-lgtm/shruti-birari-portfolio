@@ -1,0 +1,146 @@
+/* Section */
+.contact-section {
+  padding: 100px 20px;
+  background: #0f172a;
+  color: white;
+}
+
+/* Container */
+.contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.contact-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 80px auto;
+}
+
+.contact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: rgba(20, 184, 166, 0.1);
+  border: 1px solid rgba(20, 184, 166, 0.3);
+  color: #2dd4bf;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contact-header h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-header h2 span {
+  color: #2dd4bf;
+}
+
+.contact-header p {
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+/* Grid */
+.contact-grid {
+  display: grid;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card */
+.contact-card {
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #334155;
+  background: rgba(255, 255, 255, 0.04);
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Icon */
+.card-icon {
+  margin-bottom: 15px;
+}
+
+/* Text */
+.contact-card h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.contact-card p {
+  font-size: 14px;
+  color: #94a3b8;
+  word-break: break-word;
+}
+
+/* Color Variants */
+.contact-card.teal {
+  border-color: rgba(20, 184, 166, 0.4);
+}
+.contact-card.teal h3,
+.contact-card.teal .card-icon {
+  color: #2dd4bf;
+}
+
+.contact-card.cyan {
+  border-color: rgba(6, 182, 212, 0.4);
+}
+.contact-card.cyan h3,
+.contact-card.cyan .card-icon {
+  color: #22d3ee;
+}
+
+.contact-card.amber {
+  border-color: rgba(245, 158, 11, 0.4);
+}
+.contact-card.amber h3,
+.contact-card.amber .card-icon {
+  color: #f59e0b;
+}
+
+/* CTA */
+.contact-cta {
+  text-align: center;
+}
+
+.contact-cta p {
+  color: #94a3b8;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #14b8a6, #06b6d4);
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(6, 182, 212, 0.4);
+}
