@@ -1,6 +1,9 @@
 import ProjectCard from "../ProjectCard";
 import { Briefcase } from "lucide-react";
 import "./ProjectsSection.css";
+import dashboard from '../../assets/dashboard.png'
+import secondDashboard from '../../assets/secondDashboard.png'
+import diabetes from '../../assets/diabetes.png'
 
 const ProjectsSection = () => {
   const projects = [
@@ -16,7 +19,8 @@ const ProjectsSection = () => {
         "Intermittent fasting shows declining forecast trend",
         "Mental health remains stable long-term segment",
       ],
-      image: "src/assets/dashboard.png",
+      image: dashboard,
+      url: 'https://github.com/shrutibirarii/health-trends-forecast'
     },
     {
       title: "Ecommerce Product Analytics System",
@@ -36,7 +40,8 @@ const ProjectsSection = () => {
         "Actionable Customer & Revenue Insights",
         "Revenue Forecasting for Business Planning",
       ],
-      image: "src/assets/secondDashboard.png",
+      image: secondDashboard,
+      url: 'https://github.com/shrutibirarii/ecommerce-product-analytics-system'
     },
     {
       title: "Diabetes risk stratification",
@@ -50,7 +55,8 @@ const ProjectsSection = () => {
         "Unsupervised clusters aligned with actual diagnosis rates",
         "Demonstrates real-world healthcare risk stratification logic",
       ],
-      image: "src/assets/diabetes.png",
+      image: diabetes,
+      url: 'https://github.com/shrutibirarii/diabetes-risk-stratification'
     },
   ];
 
@@ -77,7 +83,14 @@ const ProjectsSection = () => {
         {/* Grid */}
         <div className="projects-grid">
           {projects.map((project, idx) => (
-            <ProjectCard key={idx} project={project} index={idx} />
+            <a
+              key={idx}
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ProjectCard project={project} index={idx} />
+            </a>
           ))}
         </div>
       </div>

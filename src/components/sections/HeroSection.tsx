@@ -1,5 +1,6 @@
 import { ArrowRight, BarChart3, Database } from "lucide-react";
 import "./HeroSection.css";
+import generatedImage from "../../assets/generatedImage.png";
 
 const HeroSection = () => {
   const scrollToSection = (href) => {
@@ -41,7 +42,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="hero-description">
-              Data Analyst with <strong>2+ years of experience</strong>{" "}
+              Hii I am Shruti Birari, Data Analyst with <strong>2+ years of experience</strong>{" "}
               specializing in <span className="highlight">R programming</span>,{" "}
               <span className="highlight">Power BI</span>,{" "}
               <span className="highlight">SQL</span>, and{" "}
@@ -85,7 +86,7 @@ const HeroSection = () => {
 
           {/* Right Image */}
           <div className="hero-image">
-            <img src="src\assets\generatedImage.png" alt="Dashboard" />
+            <img src={generatedImage} alt="Dashboard" />
             <div className="glow-top"></div>
             <div className="glow-bottom"></div>
           </div>
